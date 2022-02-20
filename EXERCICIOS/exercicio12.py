@@ -1,3 +1,5 @@
+print('\033[1;31;43mValor do Produto\033[m')
 preco = float(input('Digite o Preço do Produto?R$ '))
-novo = preco - (preco * 5 /100)
-print('O Produto que custava R${:.2f} sai com 5% de desconto vai custar R${:.2f}'.format(preco, novo))
+novo = preco - (preco * 10 /100)
+print('O Produto que custava R${:.2f} sai com 10% de desconto vai custar R${:.2f}'.format(preco, novo))
+print('\033[1;31;43mFIM\033[m')
