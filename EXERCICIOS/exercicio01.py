@@ -1,2 +1,2 @@
-msg = 'Olá Mundo!'
-print(msg)
+mensagem = 'Olá Mundo!'
+print(mensagem)
