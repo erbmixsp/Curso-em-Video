@@ -9,4 +9,4 @@ print('Ou R${:.2f} vc pode comprar €{:.2f} euros'.format(real, euro))
 print(
     'Ou ainda com R${:.2f} vc pode comprar  ¥ {:.2f} yuan'.format(real, yuan))
 print('-'*40)  # conversor de moedas
-print('-'*40)
+
