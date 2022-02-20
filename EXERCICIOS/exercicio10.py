@@ -1,3 +1,4 @@
+print('-'*40)
 real = float(input('Qunto vc Tem em sua carteira? R$ '))
 print('-'*40)
 dolar = real / 5.33
