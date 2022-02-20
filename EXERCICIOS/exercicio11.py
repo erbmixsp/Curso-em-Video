@@ -1,5 +1,6 @@
+print('='*80)
 print('\033[31;43mCalculo Para Pintar uma Parede\033[m')
-print('='*60)
+print('='*80)
 
 larg = float(input('Digite a Largura:'))
 alt = float(input('Digite a Largura: '))
@@ -8,7 +9,9 @@ print('Sua Parede tem a Dimensão de: {}m² x {}m² e Sua area é de {}m²'.form
     alt, larg, area))
 tinta = area / 2
 print('Para pintar essa parede, vc precisará de: {}L de tinta'.format(tinta))
-print('='*60)
+print('='*80)
 print('\033[31;43mFIM\033[m')
+print('='*80)
+
 
 
