@@ -1,4 +1,5 @@
 num = int(input('Digite um Numero Para Ver na Tabuada?: '))
+
 print('-' * 12)
 print('{} x  {:2} = {}'.format(num, 1, num*1))
 print('{} x  {:2} = {}'.format(num, 2, num*2))
